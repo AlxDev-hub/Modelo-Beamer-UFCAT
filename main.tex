@@ -1,87 +1,17 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Template para utilização do Beamer
-% Apresentação para Universidade Federal de Catalão
-% Versão 1.0 (03/03/2023)
+% Template para apresentação
+% Versão 2.0 (26/01/2024)
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \documentclass{beamer}
 
 \mode<presentation> {
 
-%------------------------------------------------
-% A classe Beamer possui vários temas de slides.
-% A lista a seguir contém os temas.
-% Remova o símbolo da porcentagem para utilização.
-
-%\usetheme{default}
-%\usetheme{AnnArbor}
-%\usetheme{Antibes}
-%\usetheme{Bergen}
-%\usetheme{Berkeley}
-%\usetheme{Berlin}
-%\usetheme{Boadilla}
-%\usetheme{CambridgeUS}
-%\usetheme{Copenhagen}
-%\usetheme{Darmstadt}
-%\usetheme{Dresden}
-%\usetheme{Frankfurt}
-%\usetheme{Goettingen}
-%\usetheme{Hannover}
-%\usetheme{Ilmenau}
-%\usetheme{JuanLesPins}
-%\usetheme{Luebeck}
 \usetheme{Madrid}
-%\usetheme{Malmoe}
-%\usetheme{Marburg}
-%\usetheme{Montpellier}
-%\usetheme{PaloAlto}
-%\usetheme{Pittsburgh}
-%\usetheme{Rochester}
-%\usetheme{Singapore}
-%\usetheme{Szeged}
-%\usetheme{Warsaw}
-%------------------------------------------------
 
-%------------------------------------------------
-% A classe Beamer possui vários temas de cores.
-% Pode ser utilizado em qualquer tema de slide escolhido.
-
-%\usecolortheme{albatross}
-%\usecolortheme{beaver}
-%\usecolortheme{beetle}
-%\usecolortheme{crane}
-%\usecolortheme{dolphin}
-%\usecolortheme{dove}
-%\usecolortheme{fly}
-%\usecolortheme{lily}
-%\usecolortheme{orchid}
-%\usecolortheme{rose}
-%\usecolortheme{seagull}
-%\usecolortheme{seahorse}
-%\usecolortheme{whale}
-%\usecolortheme{wolverine}
-%------------------------------------------------
-
-%------------------------------------------------
-% Remover a linha do rodapé em todos os slides.
-
-%\setbeamertemplate{footline}
-%------------------------------------------------
-
-%------------------------------------------------
-% Substituir a linha de rodapé em todos os slides por uma contagem simples.
-
-%\setbeamertemplate{footline}[page number]
-%------------------------------------------------
-
-%------------------------------------------------
-% Remover os símbolos de navegação da parte inferior de todos os slides.
-
-%\setbeamertemplate{navigation symbols}{}
-%------------------------------------------------
 }
 
-\usepackage{graphicx} % Incluir imagens.
+\usepackage{graphicx}
 \usepackage{booktabs} % Uso de \toprule, \midrule e \bottomrule em tabelas.
 
 %------------------------------------------------
@@ -186,9 +116,9 @@ Bloco de texto, equação ou lista 2.
 Inserção de imagem.
 \begin{figure}[!h]
 	\centering
-    %\caption{Título aqui}
-	%\includegraphics[width=0.8\linewidth]{Caminho da imagem aqui}
-    %\label{Citação aqui}
+    \caption{Título aqui}
+	\includegraphics[width=0.4\linewidth]{Logo_UFCAT.png}
+    \label{Citação aqui}
 \end{figure}
 
 \end{frame}
@@ -234,11 +164,11 @@ Inserção de uma imagem do lado da outra.
     \centering
     \begin{minipage}{0.5\textwidth}
         \centering
-        %\includegraphics[width=0.7\linewidth]{Caminho da imagem 1 aqui} 
+        \includegraphics[width=0.7\linewidth]{Logo_UFCAT.png} 
     \end{minipage}\hfill
     \begin{minipage}{0.5\textwidth}
         \centering
-        %\includegraphics[width=0.6\linewidth]{Caminho da imagem 2 aqui}
+        \includegraphics[width=0.7\linewidth]{Logo_UFCAT.png}
     \end{minipage}
 \end{figure}
 
@@ -251,9 +181,11 @@ Inserção de uma imagem do lado da outra.
 Inserção de várias imagens.
 \begin{figure}[!h]
     \centering
-    %\includegraphics[width=0.3\linewidth]{Caminho da imagem 1 aqui}
-    %\includegraphics[width=0.3\linewidth]{Caminho da imagem 2 aqui}
-    %\includegraphics[width=0.3\linewidth]{Caminho da imagem 3 aqui}
+    \includegraphics[width=0.3\linewidth]{Logo_UFCAT.png}
+    \includegraphics[width=0.3\linewidth]{Logo_UFCAT.png}
+    \includegraphics[width=0.3\linewidth]{Logo_UFCAT.png}
+    \includegraphics[width=0.3\linewidth]{Logo_UFCAT.png}
+    \includegraphics[width=0.3\linewidth]{Logo_UFCAT.png}
 \end{figure}
 
 \end{frame}
