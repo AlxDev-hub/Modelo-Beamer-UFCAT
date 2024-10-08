@@ -18,7 +18,7 @@
 % Primeiro Slide
 \title[Subtitulo aqui]{Titulo aqui}
 
-\author{Nome aqui}
+\author{Nome do autor aqui}
 \institute[Sigla opcional]
 {
 Nome da instituição aqui \\
@@ -27,7 +27,14 @@ Nome da instituição aqui \\
 }
 \date{}
 
-\logo{\includegraphics[height=0.8cm]{Logo_UFCAT.png}}
+%\logo{\includegraphics[height=0.8cm]{figuras/Logo_UFCAT.png}}
+
+\titlegraphic{
+    \vspace{2cm}
+    \includegraphics[height=0.95cm]{logoPPGMO.jpg}
+    \hspace{9.5cm}
+    \includegraphics[height=0.95cm]{Logo_UFCAT.png}
+}
 
 \begin{document}
 
@@ -37,158 +44,59 @@ Nome da instituição aqui \\
 %------------------------------------------------
 
 %------------------------------------------------
+\begin{frame}
+    \frametitle{Sumário}
+    \tableofcontents
+\end{frame}
+
+%------------------------------------------------
 
 \begin{frame}
-\frametitle{Slide 1}
-
-\begin{block}{}
-Bloco de texto, equação ou lista 1
-\end{block}
-
-\begin{block}{}
-Bloco de texto, equação ou lista 2
-\end{block}
+\frametitle{Introdução}
 
 \end{frame}
 %------------------------------------------------
 
 \begin{frame}
-\frametitle{Slide 2}
-
-\begin{itemize}
-
-\item Lista de itens 1
-
-\begin{itemize}
-    \item Item 1
-    \item Item 2
-    \item Item 3
-\end{itemize}
-
-\item Lista de itens 2
-
-\begin{itemize}
-    \item Item 1
-\end{itemize}
-
-\item Item 1
-\item Item 2
-\item Item 3
-
-\end{itemize}
+\frametitle{Objetivos}
 
 \end{frame}
 %------------------------------------------------
 
 \begin{frame}
-\frametitle{Slide 3}
-
-\begin{equation}
-	Equacao 1
-	\label{citacao1}
-\end{equation}
-
-\begin{equation}
-    Equacao 2
-    \label{citacao2}
-\end{equation}
+\frametitle{Estrutura do trabalho}
 
 \end{frame}
 %------------------------------------------------
 
 \begin{frame}
-\frametitle{Slide 4}
-
-\begin{block}{Bloco de texto com título 1}
-Bloco de texto, equação ou lista 1.
-\end{block}
-
-\begin{block}{Bloco de texto com título 2}
-Bloco de texto, equação ou lista 2.
-\end{block}
+\frametitle{Fundamentação teórica}
 
 \end{frame}
 %------------------------------------------------
 
 \begin{frame}
-\frametitle{Slide 5}
-
-Inserção de imagem.
-\begin{figure}[!h]
-	\centering
-    \caption{Título aqui}
-	\includegraphics[width=0.4\linewidth]{Logo_UFCAT.png}
-    \label{Citação aqui}
-\end{figure}
+\frametitle{Metodologia}
 
 \end{frame}
 %------------------------------------------------
 
 \begin{frame}
-\frametitle{Slide 6}
-
-\begin{block}{Bloco com título contendo exemplo de sistema}
-$
-y=\left\{\begin{array}{ccc}
-	+ \gamma & se & x > 0\\
-	- \gamma & se & x \leq 0.
-\end{array}\right.
-$
-\end{block}
-\end{frame}
-%------------------------------------------------
-
-\begin{frame}
-\frametitle{Slide 7}
-
-\begin{table}[!h]
-\center
-\caption{Exemplo de tabela.}
-\begin{tabular}{|c|c|}
-\hline 
-Item 1 & Descrição ou valor do item 1. \\ 
-\hline 
-Item 2 & Descrição ou valor do item 2. \\ 
-\hline 
-\end{tabular} 
-\end{table}
+\frametitle{Cronograma de atividades}
 
 \end{frame}
 %------------------------------------------------
 
 \begin{frame}
-\frametitle{Slide 8}
-
-Inserção de uma imagem do lado da outra.
-\begin{figure}[!h]
-    \centering
-    \begin{minipage}{0.5\textwidth}
-        \centering
-        \includegraphics[width=0.7\linewidth]{Logo_UFCAT.png} 
-    \end{minipage}\hfill
-    \begin{minipage}{0.5\textwidth}
-        \centering
-        \includegraphics[width=0.7\linewidth]{Logo_UFCAT.png}
-    \end{minipage}
-\end{figure}
+\frametitle{Resultados parciais}
 
 \end{frame}
 %------------------------------------------------
 
 \begin{frame}
-\frametitle{Slide 9}
-
-Inserção de várias imagens.
-\begin{figure}[!h]
-    \centering
-    \includegraphics[width=0.3\linewidth]{Logo_UFCAT.png}
-    \includegraphics[width=0.3\linewidth]{Logo_UFCAT.png}
-    \includegraphics[width=0.3\linewidth]{Logo_UFCAT.png}
-    \includegraphics[width=0.3\linewidth]{Logo_UFCAT.png}
-    \includegraphics[width=0.3\linewidth]{Logo_UFCAT.png}
-\end{figure}
+\frametitle{Conclusões preliminares}
 
 \end{frame}
-%----------------------------------------------
+%------------------------------------------------
 
 \end{document}
